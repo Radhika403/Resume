@@ -1,5 +1,6 @@
 html{
     border: 1rem solid rgb(172, 80, 172);
+    background-color:whitesmoke;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: grey
 }
