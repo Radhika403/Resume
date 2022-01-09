@@ -13,9 +13,7 @@ nav.links ul {
     display: flex;
     justify-content: flex-end;
     justify-content: space-between;
-    
     list-style: none;
-
     margin: 1rem; 
 }
 
@@ -26,13 +24,16 @@ nav.links li a{
 
 nav.links a:hover{
     font-size: 1.2rem;
+    padding: 0.4rem;
     transition-duration: 300ms;
     cursor: pointer;
+    border: solid 2px purple;
+    /* background-color: purple; */
 }
 
 header{
     width: 50 rem;
-    height: 45rem;
+    height: 40rem;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -50,11 +51,15 @@ header article h3{
     /* font-size: rem; */
     font-weight: 100;
     margin: 0;
+    position: relative;
+    bottom: 1px;
 }
 
 header article p{
     font-size: 15px;
     width: 20rem;
+    position: relative;
+    top: 10px;
 }
 
 header>img {
@@ -85,11 +90,12 @@ header a{
 header a:hover{
     font-size: 1.1rem;
     color: black;
+    
 }
 
 /* instead of har class pe margin lagana we can just do it for all div  */
 section div{ 
-    width: 50 rem;
+    width: 50rem;
     height: 25rem;
     margin-top: 2rem;
     margin-left: 4rem;
@@ -104,7 +110,7 @@ section div{
 } */
 
 section h2{
-    font-family: 'Changa','Trebuchet MS';
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2rem;
     padding: 0.2rem;
     padding-left: 1rem;
@@ -129,6 +135,7 @@ section div p{
        
 }
 
+
 .education p{
     margin: 0rem;
     text-align:right;
@@ -151,7 +158,7 @@ section div p{
 
 .skills li{
     color:white;
-    background-color: rgb(180, 109, 180);
+    background: linear-gradient(35deg, #cc2b5e , #753a88);
     border-radius: 1rem;
     padding: 0.7rem;
 }
