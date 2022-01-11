@@ -5,6 +5,14 @@ html{
     color: white;
 }
 
+@media (max-height=900){
+    hmtl{
+        background-color:black;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+    }
+}
+
 nav.links{
     width: 80rem;
 }
@@ -33,7 +41,7 @@ nav.links a:hover{
 
 header{
     width: 50 rem;
-    height: 40rem;
+    height: 45rem;
     display: flex;
     justify-content:space-around;
     align-items: center;
