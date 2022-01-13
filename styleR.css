@@ -87,6 +87,8 @@ header article p{
 }
 
 header>img {
+    max-width: 100%;
+    height: auto;
     height: 15rem;
     width: 15.5rem;
     border-radius: 5rem;
@@ -178,9 +180,13 @@ section div p{
     font-size: 1.4rem;
     display:flex;
     justify-content: space-around;
+    /* flex-grow: 5;
+    flex-wrap: wrap; */
+    
 }
 
 .skills li{
+    
     color:white;
     background: linear-gradient(35deg, #cc2b5e , #753a88);
     border-radius: 1rem;
