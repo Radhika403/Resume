@@ -5,16 +5,11 @@ html{
     color: white;
 }
 
-@media (max-height=900){
-    hmtl{
-        background-color:black;
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color: white;
-    }
-}
+
 
 nav.links{
-    width: 80rem;
+    margin-left: 1rem;
+    width: 90%;
 }
 
 nav.links ul {
@@ -223,6 +218,224 @@ section div p{
     border: purple solid 2px;
 }
 
+
+@media (max-height=900){
+    hmtl{
+        background-color:black;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+    }
+
+    nav.links{
+        width: 90vw;
+    }
+
+    nav.links ul {
+        display: flex;
+        justify-content: flex-end;
+        justify-content: space-between;
+        list-style: none;
+        margin: 1rem; 
+    }
+
+    nav.links li a{
+        color: white;
+        text-decoration: none;
+    }
+
+    nav.links a:hover{
+        font-size: 1.2rem;
+        padding: 0.4rem;
+        transition-duration: 300ms;
+        cursor: pointer;
+        border: solid 2px purple;
+        /* background-color: purple; */
+    }
+
+    header{
+        width: 50 rem;
+        height: 45rem;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        margin: 1rem;
+    }
+
+    header article h1{
+        position: relative;
+        animation-name: name;
+        animation-duration: 2s;
+        font-family: 'Dancing Script';
+        font-size: 3rem;
+        color:rgb(172, 80, 172);
+        font-weight: 100;
+        margin: 0rem;
+    }
+
+    @keyframes name{
+        0%{  
+            bottom: 0px
+        }
+        50%{
+            
+            bottom: 30px
+        }
+        100%{
+            bottom: 0px;
+        }
+    }
+    header article h3{
+        /* font-size: rem; */
+        font-weight: 100;
+        margin: 0;
+        position: relative;
+        bottom: 1px;
+    }
+
+    header article p{
+        font-size: 15px;
+        width: 20rem;
+        position: relative;
+        top: 10px;
+    }
+
+    header>img {
+        max-width: 100%;
+        height: auto;
+        height: 15rem;
+        width: 15.5rem;
+        border-radius: 5rem;
+        border: 3px solid rgb(172, 80, 172);
+    }
+
+    header nav.contact{
+        display: flex;
+        align-items:center;
+    }
+    header nav.contact li{
+        list-style: none;
+        text-align: right;
+        margin: 5px;
+    }
+
+    header nav.contact li img{
+        width: 1.2rem;
+    }
+
+    header a{
+        text-decoration: none;
+        color: white;
+    }
+    header a:hover{
+        font-size: 1.1rem;
+        color: black;
+        
+    }
+
+    /* instead of har class pe margin lagana we can just do it for all div  */
+    section div{ 
+        width: 50rem;
+        height: 25rem;
+        margin-top: 2rem;
+        margin-left: 4rem;
+        width: 90vw;
+        margin-bottom: 2rem;
+    }
+
+    /* .education{
+        margin-top: 2rem;
+        margin-left: 4rem;
+        width: 90vw;
+    } */
+
+    section h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2rem;
+        padding: 0.2rem;
+        padding-left: 1rem;
+        color:rgb(172, 80, 172);
+        border: 1px solid rgb(172, 80, 172);
+    }
+
+    section div h3{
+        color:white;
+        font-weight: 100;
+        margin-left: 1rem;
+    }
+
+    section div p{
+        color: rgb(184, 184, 184);
+        margin-left: 2rem;
+    }
+
+    .education .right>p{
+        margin: 0rem;
+        margin-right: 50rem; 
+        
+    }
+
+
+    .education p{
+        margin: 0rem;
+        text-align:right;
+        margin-right: 35rem;
+    }
+
+
+    /* .skills{
+        margin-top: 3rem;
+        margin-left: 4rem;
+        width: 90vw;
+    } */
+
+    .skills ul{
+        list-style: none;
+        font-size: 1.4rem;
+        display:flex;
+        justify-content: space-around;
+        /* flex-grow: 5;
+        flex-wrap: wrap; */
+        
+    }
+
+    .skills li{
+        
+        color:white;
+        background: linear-gradient(35deg, #cc2b5e , #753a88);
+        border-radius: 1rem;
+        padding: 0.7rem;
+    }
+
+    /* .projects {
+        margin-top: 3rem;
+        margin-left: 4rem;
+        width: 90vw;
+    } */
+
+    .projects h3{
+        margin: 0rem;  
+        margin-left: 1rem; 
+    }
+
+
+    /* .workex{
+        margin-top: 3rem;
+        margin-left: 4rem;
+        width: 90vw;
+    } */
+
+    .interests ul{
+        list-style: none;
+        font-size: 1.2rem;
+        display:flex;
+        justify-content: space-around;
+    }
+
+    .interests li{
+        padding: 1rem;
+        border: purple solid 2px;
+    }
+}
 
 
 
