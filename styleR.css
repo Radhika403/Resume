@@ -36,7 +36,7 @@ nav.links a:hover{
 
 header{
     width: 50 rem;
-    height: 45rem;
+    height: 40rem;
     display: flex;
     justify-content:space-around;
     align-items: center;
@@ -196,7 +196,7 @@ section div p{
 } */
 
 .projects{
-    height: 30rem;
+    height: 50rem;
 }
 
 .projects h3{
@@ -211,6 +211,9 @@ section div p{
     margin-left: 4rem;
     width: 90vw;
 } */
+.activities{
+    height: 40rem;
+}
 
 .interests ul{
     list-style: none;
